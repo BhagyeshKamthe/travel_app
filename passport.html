@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Passport Upload</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			
+            background-image: url("https://media.npr.org/assets/img/2021/10/06/gettyimages-1302813215_wide-6c48e5a6aff547d2703693450c4805978de47435-s1100-c50.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 32px;
+		}
+		form {
+			color: #333;
+			margin: 20px auto;
+			width: 80%;
+			border-radius: 5px;
+			max-width: 600px;
+			background-color: #fff;
+			padding: 20px;
+			box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+            font-size: 20px;
+		}
+		input[type="file"] {
+			width: 100%;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			background-color: #f4f4f4;
+			cursor: pointer;
+            font-size: 20px;
+		}
+		input[type="submit"] {
+    margin-top: 50px;
+    width: 17%;
+    background-color:#333;
+    color: #ffff;
+    padding: 6px 0;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+
+		}
+		input[type="submit"]:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Passport Upload</h1>
+	</header>
+	<form action="boarding.html">
+		<label for="passport-upload">Upload Passport:</label>
+		<input type="file" id="passport-upload" name="passport-upload" accept=".jpg, .jpeg, .png" required>
+		<input type="submit" value="Submit">
+	</form>
+    <br><br><br><br> <br><br><br><br> <br><br><br><br>  <br><br><br><br> <br><br><br><br>
+</body>
+</html>
